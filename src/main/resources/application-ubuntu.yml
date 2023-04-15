@@ -1,0 +1,31 @@
+
+spring:
+  application:
+    name: pthore-service-layer-1
+    
+  servlet:
+    multipart:
+      max-file-size: 16MB
+      max-request-size: 16MB
+      
+      
+server:
+  
+  port: 8001
+  shutdown: graceful
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

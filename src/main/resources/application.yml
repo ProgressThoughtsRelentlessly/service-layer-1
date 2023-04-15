@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: pthore-service-layer-1
+    
+  profiles:
+    active: ubuntu
+
+
+
+
+    
