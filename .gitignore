@@ -1,5 +1,5 @@
-.settings/
 target/
 .idea/
+.settings/
 .classpath
-bin/
+.project
