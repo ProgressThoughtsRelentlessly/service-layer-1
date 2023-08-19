@@ -128,6 +128,7 @@ public class FetchAggregatorController {
 		return  ResponseEntity.ok().body(publicUserProfileInfo);
 	}
 	
+	// TODO: This api needs to change to support create/update/save/delete of the post.
 	@PostMapping(value="/create-post")
 	public ResponseEntity<?> createNewPost(
 			@RequestParam(value="files", required=false)MultipartFile[] files, 
@@ -182,6 +183,7 @@ public class FetchAggregatorController {
 	
 	/*
 	 * Api to update or comment on a post.
+	 * TODO: This API needs to change to support commenting/upvoting/.
 	*/
 	@PostMapping(value = "/post/update")
 	public ResponseEntity<?> updatesPostOrComments(
@@ -200,6 +202,7 @@ public class FetchAggregatorController {
 	
 	/*
 	 * Api to upvote the post
+	 * TODO: This api needs to be removed.
 	*/
 	@PatchMapping(value = "/upvote/{postId}") 
 	public ResponseEntity<?>  upvotePost (@PathVariable String postId) {
