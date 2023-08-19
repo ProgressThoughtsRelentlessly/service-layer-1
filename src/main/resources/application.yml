@@ -1,12 +1,12 @@
 
 spring:
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
   application:
     name: pthore-service-layer-1
     
   profiles:
     active: ubuntu
-
-
-
-
-    
